@@ -1,0 +1,5 @@
+BMW,X1,2012,59.0,false
+Fiat,Punto,2013,33.0,true
+Audi,A3,2022,150.0,true
+Mercedes,E220,2010,99.0,false
+Audi,A5,2012,55.5,false
