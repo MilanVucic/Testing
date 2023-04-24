@@ -10,6 +10,7 @@ public class FileHelper {
             BufferedReader br = new BufferedReader(new FileReader(filename));
             String line = br.readLine();
 
+
             while (line != null) {
                 list.add(line);
                 line = br.readLine();
@@ -17,6 +18,7 @@ public class FileHelper {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+
         return list;
     }
 
